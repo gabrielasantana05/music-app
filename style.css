@@ -1,0 +1,32 @@
+body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom #0f172a, #111827);
+  color: #f8fafc
+  line-height: 1.6;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #38bdf8;
+}
+
+.nav-bar a:hover {
+   color: #38bdf8;
+  outline:none;
+}
+
+.cta-button:hover{
+  background: #0ea5e9;
+
+}
+
+}
+.footer {
+  text=align: center;
+  padding: 20px;
+  background: #1ee293b;
+  border-top: 2px solid #334155;
+  margin-top: 30px;
+}
