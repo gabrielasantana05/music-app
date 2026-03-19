@@ -132,6 +132,52 @@ body {
   margin-bottom: 10px;
 }
 
+.recently-played {
+  padding: 40px;
+  background: #111827;
+  color: #f8fafc;
+}
+
+.recently-played h2 {
+  text-align: center;
+  color: #38bdf8;
+  margin-bottom: 25px;
+}
+
+.recent-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.recent-song {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: #1a2536;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.recent-cover {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.recent-info h3 {
+  margin: 0;
+  color: #38bdf8;
+}
+
+.recent-info p {
+  margin: 4px 0 0;
+  color: #cbd5e1;
+}
 
 .album-row {
   display: flex;
