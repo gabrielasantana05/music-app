@@ -15,13 +15,11 @@ body {
   border-bottom: 2px solid #334155;
 }
 
-
 .logo {
   font-size: 1.6rem;
   font-weight: bold;
   color: #38bdf8;
 }
-
 
 .nav-bar a {
   color: #f8fafc;
@@ -66,8 +64,6 @@ body {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
 }
 
-
-
 .mock-card {
   background: #1e293b;
   padding: 40px;
@@ -86,12 +82,6 @@ body {
   color: #38bdf8;
   
 }
-
-.features {
-  padding: 50px 40px;
-  background: #111827;
-}
-
 
 .grid {
   display: flex;
