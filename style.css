@@ -92,11 +92,19 @@ body {
   background: #111827;
 }
 
+
 .grid {
   display: flex;
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+
+.feature-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
 .feature-card {
@@ -113,6 +121,41 @@ body {
 }
 
 .feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+.suggested-albums {
+  margin-top: 50px;
+  text-align: center;
+  color: #f8fafc;
+  margin-bottom: 10px;
+  
+}
+
+.suggested-albums h2 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+
+.album-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.album-cover {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+
+}
+
+.album-cover:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
 }
