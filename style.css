@@ -1,6 +1,6 @@
 body {
   margin:0;
-  background-color: #a4b0c9;
+  background-color: #c8d1e4;
   font-family: Arial, sans-serif;
   color: #436589;
   line-height: 1.6;
@@ -48,7 +48,6 @@ body {
   flex: 1;
 }
 
-
 .cta-button {
   display: inline-block;
   background: #38bdf8;
@@ -61,7 +60,7 @@ body {
 
 .cta-button:hover{
   background: #0ea5e9;
-  transform: (-6px);
+  transform: translateY(-6px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
 }
 
@@ -74,7 +73,7 @@ body {
 }
 
 .mock-card:hover{
-      transform:(-6px);
+      transform: translateY(-6px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
 }
 
@@ -121,27 +120,12 @@ body {
   text-align: center;
   color: #f8fafc;
   margin-bottom: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   
 }
 
 .suggested-albums h2 {
   color: #38bdf8;
   margin-bottom: 10px;
-}
-
-.recently-played {
-  padding: 40px;
-  background: #111827;
-  color: #f8fafc;
-}
-
-.recently-played h2 {
-  text-align: center;
-  color: #38bdf8;
-  margin-bottom: 25px;
 }
 
 .recent-list {
@@ -184,7 +168,6 @@ body {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  width: 60%;
 }
 
 .album-cover {
@@ -197,7 +180,7 @@ body {
 }
 
 .album-cover:hover {
-  transform: (-6px);
+  transform: translateY(-6px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
 }
 
