@@ -45,6 +45,7 @@ body {
 
 .hero-text {
   flex: 1;
+   text-align: center;
 }
 
 .cta-button {
