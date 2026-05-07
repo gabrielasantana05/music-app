@@ -137,7 +137,7 @@ body {
   flex-wrap: wrap;
 }
 
-.album-cover {
+.home-cover {
   width: 180px;
   height: 180px;
   object-fit: cover;
@@ -146,7 +146,7 @@ body {
 
 }
 
-.album-cover:hover {
+.home-cover:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
 }
@@ -271,3 +271,26 @@ body {
   border-radius: 10px;
   color: white;
 }
+
+.album-cover{
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 28px;
+}
+
+.song-name{
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    margin-top: 18px;
+    margin-bottom: 3px;
+}
+
+.artist-name{
+    font-size: 20px;
+    color: #efecec;
+    margin-bottom: 15px;
+}
+
+
