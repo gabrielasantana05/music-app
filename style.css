@@ -233,10 +233,17 @@ body {
   margin-top: 60px;
 }
 
+.plans-section h2{
+  font-size: 40px;
+  margin-bottom: 50px;
+
+}
+
 .plans-container {
   display: flex;
   justify-content: center;
   gap: 20px;
+  flex-wrap:wrap;
 }
 
 .plan-card {
@@ -251,6 +258,10 @@ body {
 
 .plan-card:hover {
   transform: translateY(-6px);
+}
+
+.plan-card:hover {
+  transform: translateY(-12px) scale(1.03);
 }
 
 .popup {
@@ -271,6 +282,28 @@ body {
   border-radius: 10px;
   color: white;
 }
+
+.popup-content button {
+  padding: 12px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.popup-content button:first-child {
+  background: #38bdf8;
+  color: white;
+}
+
+.popup-content button:last-child {
+  background: #334155;
+  color: white;
+}
+
+
 
 .album-cover{
     width: 320px;
